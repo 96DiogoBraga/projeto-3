@@ -48,6 +48,7 @@ header{
     width: 290px;
     height: 308px; 
     margin: 0px 0px 15px 15px;
+    border-radius: 24px;
 }
 
 .banner__interior{
