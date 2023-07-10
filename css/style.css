@@ -9,6 +9,7 @@
     --button:#845EF7;
     --purple-dark:#5A27F2;
     --gray:#30373E;
+    --border:#D3D7DB;
 }
 
 body{
@@ -79,4 +80,272 @@ header{
     font-weight: 700;
     line-height: 18px;
     cursor: pointer;
+}
+
+.sobre-nos{
+    background-color: var(--alt-background);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sobre-nos h2{
+    font-family: var(--alt-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    margin-bottom: 0;
+}
+
+.sobre-nos__desc p{
+    margin-top: 17px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.14px; 
+}
+
+.sobre-nos__engenheiros img{
+    width: 290px;
+    height: 200px;
+    margin-bottom:0;
+}
+
+.sobre-nos__engenheiros--mais{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    width: 290px;
+    height: 225px; 
+    margin-top:-47px;
+    margin-bottom: 16px;
+    background-color: var(--backround);
+    position: relative;    
+}
+
+.sobre-nos__engenheiros--mais h3{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0.14px; 
+    margin-bottom: 0;
+}
+
+.sobre-nos__engenheiros--mais button{
+    width: 260px;
+    align-self: center;
+    margin-top: 24px;
+    margin-bottom: 41px;
+    padding: 13px 32px;
+    background-color: transparent;
+    border: 1px solid var(--button);
+    border-radius: 8px;
+    font-family: var(--alt-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--button); 
+    cursor: pointer;
+}
+
+.sobre-nos__consultoria{
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    width: 290px;
+    margin-bottom: 16px;
+    background-color: var(--backround);
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.titulo{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: 0.14px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sobre-nos__consultoria img{
+   padding-left: 15px;
+   margin-bottom: 16px;
+   width: 58px;
+   height: 64px;
+}
+
+.sobre-nos__consultoria h3, p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sobre-nos__consultoria p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.14px; 
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.serv{
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    width: 290px;
+    margin-bottom: 16px;
+    background-color: var(--backround);
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.serv img{
+   margin-bottom: 16px;
+   width: 106px;
+   height: 64px;
+}
+
+.serv h3, p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.serv p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.14px; 
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.como{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 24px;
+}
+
+.como h2{
+    font-family: var(--alt-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+}
+
+.como img{
+    width: 290px;
+    height: 123px;
+}
+
+.como__desc p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.14px;
+    width: 290px;
+    height: 425px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.como__botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.como__botoes--roxo{
+    width: 137px;
+    height: 44px;
+    padding: 13px 32px;
+    background-color: var(--button);
+    border: none;
+    border-radius: 8px;
+    color: var(--backround);
+    font-family: var(--alt-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.como__botoes--branco{
+    width: 137px;
+    height: 44px;
+    padding: 13px;
+    background-color: transparent;
+    border: 1px solid var(--button);
+    border-radius: 8px;
+    font-family: var(--alt-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; 
+    color: var(--button); 
+    cursor: pointer;
+    text-align: center;
+    margin-right: 0;
+}
+
+.vantagens{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    background-color: var(--alt-background);
+    display: flex;
+    flex-direction: column;
+}
+
+.vantagens h2{
+    font-family: var(--alt-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.vantagens__card img{
+    width: 40px;
+    height: 40px;
+}
+
+#aviao{
+    width: 40px;
+    height: 20px;
+}
+
+.vantagens__card{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 15px;
+    background-color: var(--backround);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.vantagens__card p{
+    margin-top: 0;
+    padding-top: 0;
 }
