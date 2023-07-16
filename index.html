@@ -11,9 +11,9 @@
 
     <header>
         <div class="menu">
-            <button><img src="./assets/mobile/header/menu-mobile.svg" alt="menu"></button>
+            <button><img src="./assets/mobile/header/menu-mobile.svg" alt="menu" class="burger-menu"></button>
             <img src="./assets/mobile/header/logo.ds.png" alt="logo" class="menu__logo">
-            <button><img src="./assets/mobile/header/lupa-mobile.svg" alt="buscar"></button>
+            <button><img src="./assets/mobile/header/lupa-mobile.svg" alt="buscar" class="lupa"></button>
         </div>
     </header>
 
@@ -22,7 +22,7 @@
             <div class="banner__interior">
                 <h1 class="banner__texto"><strong>Projetos de alta complexidade</strong></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button>Fazer o cálculo</button>
+                <button class="botao__banner">Fazer o cálculo</button>
             </div>
                 <img class="banner__fundo" src="./assets/mobile/banner/banner-mobile.png" alt="sacada apartamento">
         </section>
@@ -38,7 +38,7 @@
 
             <div class="sobre-nos__engenheiros">
                 <div>
-                    <img src="./assets/mobile/sobre-nos/2-engenheiros-mobile.png" alt="engenheiros lendo projeto">
+                    <img src="./assets/tablet/sobre-nos/2-engenheiros-tablet.png" alt="engenheiros lendo projeto">
                 </div>
                 <div class="sobre-nos__engenheiros--mais">
                     <h3 class="titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
@@ -47,29 +47,38 @@
             </div>
 
             <div class="sobre-nos__consultoria">
-                <img src="./assets/mobile/sobre-nos/caixa-mobile.svg" alt="caixa">
-                <div class="titulo">
-                    <h3>Consultoria de arquitetura e decoração</h3>                
+                <div class="sobre-nos__1">
+                    <img src="./assets/mobile/sobre-nos/caixa-mobile.svg" alt="caixa">
                 </div>
-                <div class="sobre-nos__consultoria--desc">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>                
+                
+                <div class="sobre-nos__2">
+                    <div class="titulo">
+                        <h3>Consultoria de arquitetura e decoração</h3>                
+                    </div>
+                    <div class="sobre-nos__consultoria--desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
             </div>
 
             <div class="serv">
-                <img src="./assets/mobile/sobre-nos/engrenagens-mobile.svg" alt="engrenagens">
-                <div class="titulo">
-                    <h3>Serviço Arquiteto</h3>                
+                <div class="sobre-nos__1">                    
+                    <img src="./assets/mobile/sobre-nos/engrenagens-mobile.svg" alt="engrenagens">
                 </div>
-                <div class="sobre-nos__consultoria--desc">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div> 
+                <div class="sobre-nos__2">
+                    <div class="titulo">
+                        <h3>Serviço Arquiteto</h3>                
+                    </div>
+                    <div class="sobre-nos__consultoria--desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
             </div>            
         </section>
 
         <section class="como">
             <h2>Como trabalhamos</h2>
-            <img src="./assets/mobile/como-trabalhamos/maos.png" alt="mãos segurando canetas e escrevendo">
+            <img src="./assets/tablet/como-trabalhamos/maos-tablet.png" alt="mãos segurando canetas e escrevendo">
 
             <div class="titulo">
                 <h3>Realizamos uma consulta</h3>                
@@ -91,107 +100,111 @@
 
         <section class="vantagens">
             <h2>Vantagens</h2>
-            <div class="vantagens__card">
-                <img src="./assets/mobile/vantagens/icone-1.png" alt="conexão">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
+            <div class="vantagens__cards">
+                <div class="vantagens__card conexao">
+                    <img src="./assets/mobile/vantagens/icone-1.png" alt="conexão">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
 
-            <div class="vantagens__card">
-                <img src="./assets/mobile/vantagens/icone-2.png" alt="prancheta">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+                <div class="vantagens__card prancheta">
+                    <img src="./assets/mobile/vantagens/icone-2.png" alt="prancheta">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
 
-            <div class="vantagens__card">
-                <img src="./assets/mobile/vantagens/icone-3.png" alt="24 horas">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-            </div>
+                <div class="vantagens__card horas">
+                    <img src="./assets/mobile/vantagens/icone-3.png" alt="24 horas">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
 
-            <div class="vantagens__card">
-                <img src="./assets/mobile/vantagens/icone-4.png" alt="mapa">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+                <div class="vantagens__card mapa">
+                    <img src="./assets/mobile/vantagens/icone-4.png" alt="mapa">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
 
-            <div class="vantagens__card">
-                <img src="./assets/mobile/vantagens/icone-5.png" alt="avião" id="aviao">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
+                <div class="vantagens__card aviao">
+                    <img src="./assets/mobile/vantagens/icone-5.png" alt="avião" id="aviao">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
 
-            <div class="vantagens__card">
-                <img src="./assets/mobile/vantagens/icone-6.png" alt="calendário">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-            </div>
+                <div class="vantagens__card calendario">
+                    <img src="./assets/mobile/vantagens/icone-6.png" alt="calendário">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                </div>
 
-            <div class="vantagens__card">
-                <img src="./assets/mobile/vantagens/icone-7.png" alt="planeta">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="vantagens__card planeta">
+                    <img src="./assets/mobile/vantagens/icone-7.png" alt="planeta">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
             </div>
         </section>
 
         <section class="servicos">
             <h2>Serviços</h2>
-            <div class="servicos__card">
-                <img src="./assets/mobile/servicos/servicos-1-mobile.png" alt="forjando peça de metal">
-                <div class="superior">
-                    <h4>Lorem ipsum</h4>
-                    <button>></button>
+            <div class="servicos__cards">
+                <div class="servicos__card">
+                    <img src="./assets/mobile/servicos/servicos-1-mobile.png" alt="forjando peça de metal">
+                    <div class="superior">
+                        <h4>Lorem ipsum</h4>
+                        <button>></button>
+                    </div>
+                    <div class="inferior">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
                 </div>
-                <div class="inferior">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
 
-            <div class="servicos__card">
-                <img src="./assets/mobile/servicos/servicos-2-mobile.png" alt="trator">
-                <div class="superior">
-                    <h4>Lorem ipsum</h4>
-                    <button>></button>
+                <div class="servicos__card">
+                    <img src="./assets/mobile/servicos/servicos-2-mobile.png" alt="trator">
+                    <div class="superior">
+                        <h4>Lorem ipsum</h4>
+                        <button>></button>
+                    </div>
+                    <div class="inferior">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
                 </div>
-                <div class="inferior">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
 
-            <div class="servicos__card">
-                <img src="./assets/mobile/servicos/servicos-3-mobile.png" alt="trabalho com madeira">
-                <div class="superior">
-                    <h4>Lorem ipsum</h4>
-                    <button>></button>
+                <div class="servicos__card">
+                    <img src="./assets/mobile/servicos/servicos-3-mobile.png" alt="trabalho com madeira">
+                    <div class="superior">
+                        <h4>Lorem ipsum</h4>
+                        <button>></button>
+                    </div>
+                    <div class="inferior">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
                 </div>
-                <div class="inferior">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
 
-            <div class="servicos__card">
-                <img src="./assets/mobile/servicos/servicos-4-mobile.png" alt="guindaste içando muro">
-                <div class="superior">
-                    <h4>Lorem ipsum</h4>
-                    <button>></button>
+                <div class="servicos__card">
+                    <img src="./assets/mobile/servicos/servicos-4-mobile.png" alt="guindaste içando muro">
+                    <div class="superior">
+                        <h4>Lorem ipsum</h4>
+                        <button>></button>
+                    </div>
+                    <div class="inferior">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
                 </div>
-                <div class="inferior">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-            </div>
 
-            <div class="servicos__card">
-                <img src="./assets/mobile/servicos/servicos-5-mobile.png" alt="broca em contato com metal">
-                <div class="superior">
-                    <h4>Lorem ipsum</h4>
-                    <button>></button>
+                <div class="servicos__card">
+                    <img src="./assets/mobile/servicos/servicos-5-mobile.png" alt="broca em contato com metal">
+                    <div class="superior">
+                        <h4>Lorem ipsum</h4>
+                        <button>></button>
+                    </div>
+                    <div class="inferior">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
                 </div>
-                <div class="inferior">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-            </div>
 
-            <div class="servicos__card">
-                <img src="./assets/mobile/servicos/servicos-6-mobile.png" alt="mulher segurando trena">
-                <div class="superior">
-                    <h4>Lorem ipsum</h4>
-                    <button>></button>
-                </div>
-                <div class="inferior">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="servicos__card">
+                    <img src="./assets/mobile/servicos/servicos-6-mobile.png" alt="mulher segurando trena">
+                    <div class="superior">
+                        <h4>Lorem ipsum</h4>
+                        <button>></button>
+                    </div>
+                    <div class="inferior">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>            
                 </div>
             </div>
         </section>
@@ -199,7 +212,7 @@
 
     <footer>
         <h2>Envie sua aplicação</h2>
-        <div class="formulario">
+        
             <form>
                 <div class="form__nome">
                     <input type="text" name="Nome" placeholder="Nome*">                    
@@ -219,26 +232,34 @@
                     <input type="email" name="email" placeholder="Email*">
                 </div>
 
-                <div class="form__check">
-                    <input type="checkbox" name="checkbox">
-                    <label for="checkbox">Concordo com a Política de privacidade</label>
+                <div class="form__mensagem hide-mobile">
+                    <input type="text" name="mensagem" placeholder="Mensagem">
                 </div>
-            </form>
-            <button>Concluir</button>
-        </div>
+
+                <div class="button--check">
+                        <div class="form__check">
+                        <input type="checkbox" name="checkbox">
+                        <label for="checkbox">Concordo com a Política de privacidade</label>
+                    </div>
+                    <button class="botao__form">Concluir</button>  
+                </div>
+            </form>         
+      
+
         <div class="footer__desc">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
         </div>
+
         <div class="footer__logo">
-            <img src="./assets/mobile/footer/logo-footer-mobile.png" alt="logo">
+            <img src="./assets/tablet/footer/logo-footer-tablet.png" alt="logo">
         </div>
 
         <div class="footer__lista">
             <ul>
                 <li>
-                    <a href=""><u>Sobre nós</u></a>
+                    <a href="">Sobre nós</a>
                 </li>
 
                 <li>
@@ -246,21 +267,21 @@
                 </li>
 
                 <li id="roxo">
-                    <a href=""><u>Vantagens</u></a>
+                    <a href=""><u><span>Vantagens</span></u></a>
                 </li>
 
                 <li>
-                    <a href=""><u>Serviços</u></a>
+                    <a href="">Serviços</a>
                 </li>
 
                 <li>
-                    <a href=""><u>Contatos</u></a>
+                    <a href="">Contatos</a>
                 </li>                
             </ul>
         </div>
         <div class="social">
-            <button><img src="./assets/mobile/footer/insta-footer-mobile.svg" alt="logo instagram"></button>
-            <button><img src="./assets/mobile/footer/face-footer-mobile.svg" alt="logo facebook"></button>
+            <button class="social__insta"><img src="./assets/mobile/footer/insta-footer-mobile.svg" alt="logo instagram"></button>
+            <button class="social__face"><img src="./assets/mobile/footer/face-footer-mobile.svg" alt="logo facebook"></button>
         </div>        
     </footer>    
 </body>
