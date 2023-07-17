@@ -1152,37 +1152,58 @@ footer span{
         letter-spacing: 0.16px; 
     }
 
-    footer img{
-        margin-left: 0px;
+    .footer__logo img{
+        margin-left: 0;
+        padding-left: 0;
         width: 106px;
         height: 58px;
     }
+
+    
+    .lista-social{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
     
     footer ul{
-        padding-left: 15px;
         width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 64px 16px;
-        font-family: var(--alt-font);
+        display: grid;
+        grid-template-columns: 1fr 1fr fit-content;
+        grid-template-rows: 1fr 1fr 1fr fit-content;
+        column-gap: 64px;
+        row-gap: 16px;
+        font-family: Montserrat;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 22px;
-        color: var(--backround);
-    }
-    .ul-1{
-        display: flex;
-        flex-direction: column;
+        line-height: 22px;        
     }
 
-    .ul-2{
-        display: flex;
-        flex-direction: column;
+    .ul-grid-1{
+        grid-row: 1;
+        grid-column: 1;
     }
 
+    .ul-grid-2{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .ul-grid-3{
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .ul-grid-4{
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .ul-grid-5{
+        grid-row: 2;
+        grid-column: 2;
+    }
 
     li{
         list-style: none;
@@ -1207,4 +1228,9 @@ footer span{
         height: 40px;
         margin-right: 24px;
         margin-bottom: 40px;
+    }
+    .social{
+        margin-top: 40px;
+        margin-right: 64px;
+        margin-left: 0;
     }
