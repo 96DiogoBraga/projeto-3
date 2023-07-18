@@ -58,6 +58,7 @@ section{
     height: 308px;
     border-radius: 24px;
     object-fit: cover;
+    margin-bottom: 24px;
 }
 
 .banner__interior{
@@ -453,20 +454,22 @@ form{
     justify-content: space-between;
     width: 290px;
     height: 324px;
-    margin-left: 15px;
+    padding-left: 15px;
+    margin-bottom: 24px;
 }
 
 input[type=text]{
-    width: 290px;
+    width: 276px;
     height: 52px;
     border-radius: 8px;
     background-color: var(--gray);
     border: none;
     margin-bottom: 16px;
+    padding-left: 14px;
 }
 
 select{
-    width: 295px;
+    width: 294px;
     height: 52px;
     border-radius: 8px;
     background-color: var(--gray);
@@ -478,10 +481,11 @@ select{
     letter-spacing: 0.14px; 
     color: #737b82;
     margin-bottom: 16px;
+    padding-left: 14px;
 }
 
 input[type=date]{
-    width: 290px;
+    width: 276px;
     height: 52px;
     border-radius: 8px;
     background-color: var(--gray);
@@ -493,15 +497,17 @@ input[type=date]{
     letter-spacing: 0.14px; 
     color: #737b82;
     margin-bottom: 16px;
+    padding-left: 14px;
 }
 
 input[type=email]{
-    width: 290px;
+    width: 276px;
     height: 52px;
     border-radius: 8px;
     background-color: var(--gray);
     border: none;
     margin-bottom: 16px;
+    padding-left: 14px;
 }
 
 input::placeholder{
@@ -519,13 +525,21 @@ label{
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.12px; 
+    margin-left: 8px;
+    align-self: center;
+}
+
+input[type=checkbox]{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 16px;
 }
 
 .hide-mobile{
     display: none;
 }
 
-.botao__form{
+.botao__form button{
     width: 290px;
     height: 44px;
     background-color: var(--button);
@@ -667,6 +681,7 @@ footer span{
         width: 100%;
         height: 662px; 
         object-fit: cover;
+        margin-bottom: 50px;
     }
 
     .banner__interior h1{
@@ -1048,6 +1063,7 @@ footer span{
         height: 486px;
         padding-bottom: 0px;
         margin-top: 23px;
+        margin-bottom: 40px;
     }
     
     input[type=text]{
@@ -1057,10 +1073,11 @@ footer span{
         border-radius: 8px;
         background-color: var(--gray);
         border: none;
+        padding-left: 24px;  
     }
     
     select{
-        width: 570px;
+        width: 595px;
         height: 60px;
         border-radius: 8px;
         background-color: var(--gray);
@@ -1072,6 +1089,7 @@ footer span{
         letter-spacing: 0.14px; 
         color: #737b82;
         margin-bottom: 24px;
+        padding-left: 24px;  
     }
     
     input[type=date]{
@@ -1087,6 +1105,7 @@ footer span{
         letter-spacing: 0.14px; 
         color: #737b82;
         margin-bottom: 24px;
+        padding-left: 24px;  
     }
     
     input[type=email]{
@@ -1095,7 +1114,8 @@ footer span{
         border-radius: 8px;
         background-color: var(--gray);
         border: none;
-        margin-bottom: 24px;        
+        margin-bottom: 24px;  
+        padding-left: 24px;      
     }
 
     .hide-mobile{
@@ -1116,17 +1136,17 @@ footer span{
         font-style: normal;
         font-weight: 400;
         line-height: 32px; /* 228.571% */
-        letter-spacing: 0.14px;     
+        letter-spacing: 0.14px;
     }
 
     .button--check{
         display: flex;
         flex-direction: row-reverse;
-        align-items: center;
+        align-items: end;
         justify-content: start;
     }
 
-    .botao__form{
+    .botao__form button{
         width: 143px;
         height: 58px;
         background-color: var(--button);
