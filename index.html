@@ -209,52 +209,36 @@
             </div>
         </section>
     </main>
-
     <footer>
-        <h2>Envie sua aplicação</h2>
-        
-            <form>
-                <div class="form__nome">
-                    <input type="text" name="Nome" placeholder="Nome*">                    
+         <h2>
+            Envie sua aplicação
+         </h2>
+
+         <form class="formulario">
+            <input type="text" name="nome" placeholder="Nome*" required>
+            <select name="cidade" id="">
+                <option value="" selected disabled>
+                    Cidade
+                </option>
+            </select>
+            <input type="date" name="data">
+            <input type="email" name="email" placeholder="Email*" required>
+            <input type="text" name="mensagem" placeholder="Mensagem" class="hide-mobile">
+            <div class="button--check">
+                <div class="check">
+                    <input type="checkbox" id="check">
+                    <label for="check">Concordo com a Política de privacidade</label>
                 </div>
+                <button>Concluir</button>
+            </div>
+         </form>
 
-                <div class="form__cidade">
-                   <select name="cidade" id="">
-                        <option value="" disabled selected>Cidade</option>
-                    </select>
-                </div>
+         <div class="footer__desc">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+         </div>
 
-                <div class="form__data">
-                    <input type="date" name="data">
-                </div>
-
-                <div class="form__email">
-                    <input type="email" name="email" placeholder="Email*">
-                </div>
-
-                <div class="form__mensagem hide-mobile">
-                    <input type="text" name="mensagem" placeholder="Mensagem">
-                </div>
-
-                <div class="button--check">
-                    <div class="form__check">
-                        <input type="checkbox" name="checkbox">
-                        <label for="checkbox">Concordo com a Política de privacidade</label>
-                    </div>
-                    <div class="botao__form">
-                        <button>Concluir</button>
-                    </div>                  
-                </div>
-            </form>         
-      
-
-        <div class="footer__desc">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-        <div class="footer__logo">
+         <div class="footer__logo">
             <img src="./assets/tablet/footer/logo-footer-tablet.png" alt="logo">
         </div>
 
@@ -287,7 +271,6 @@
                 <button class="social__face"><img src="./assets/mobile/footer/face-footer-mobile.svg" alt="logo facebook"></button>
             </div>
         </div>
-
-    </footer>    
+    </footer>
 </body>
 </html>
