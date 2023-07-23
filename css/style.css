@@ -469,7 +469,7 @@ footer form input{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%; /* 25.2px */
+    line-height: 180%;
     letter-spacing: 0.14px;
     color: var(--light-gray);
 }
@@ -484,7 +484,7 @@ footer form select{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%; /* 25.2px */
+    line-height: 180%;
     letter-spacing: 0.14px; 
     color: #6b737a;
 }
@@ -493,7 +493,7 @@ footer form input[type=date]{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 180%; /* 25.2px */
+    line-height: 180%;
     letter-spacing: 0.14px; 
     color: #6b737a;    
 }
@@ -1054,7 +1054,7 @@ footer span{
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 200%; /* 32px */
+        line-height: 200%; 
         letter-spacing: 0.16px; 
     }
     
@@ -1068,7 +1068,7 @@ footer span{
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 200%; /* 32px */
+        line-height: 200%;
         letter-spacing: 0.16px; 
     }
     
@@ -1076,7 +1076,7 @@ footer span{
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 200%; /* 32px */
+        line-height: 200%;
         letter-spacing: 0.16px;    
     }
 
@@ -1093,7 +1093,7 @@ footer span{
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 32px; /* 228.571% */
+        line-height: 32px;
         letter-spacing: 0.14px; 
     }
     
