@@ -184,7 +184,7 @@ section {
   font-weight: 700;
   line-height: 18px;
   cursor: pointer;
-  animation: FadeIn 3s ease-in-out, color 3s alternate ease-in-out infinite;
+  animation: FadeIn 3s ease-in-out, color 2s alternate ease-in-out infinite;
 }
 .banner button:hover {
   border: 4px solid var(--purple-dark);
