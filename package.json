@@ -1,0 +1,15 @@
+{
+  "name": "projeto-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/style.scss:css/style.css",
+    "dev": "sass --watch --color src/style.scss:css/style.css"
+  },
+  "author": "Diogo Braga",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}
