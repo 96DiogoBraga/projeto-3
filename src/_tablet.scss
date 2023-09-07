@@ -1,0 +1,721 @@
+@import 'mixing';
+@media (min-width: 768px) {
+
+    header{
+        width: 100%;
+        height: 72px;
+        margin-bottom: 53px;
+    }
+    .burger-menu{
+        width: 30px;
+        height: 23px;
+    }
+
+    .botao_burger{
+        background-image: url(../assets/tablet/header/menu-tablet.svg);
+        background-position: center;
+        height: 23px;
+        width: 30px;        
+
+        &:hover{
+            background-image: url(../assets/tablet/header/menu-hover.png);
+            background-position: center;
+            height: 23px;
+            width: 30px;            
+        }
+
+        &:active{
+            background-image: url(../assets/tablet/header/menu-active.png);
+            background-position: center;
+            height: 23px;
+            width: 30px;
+        }
+        
+    }
+
+
+    .botao_lupa{
+        background-image: url(../assets/tablet/header/lupa-tablet.svg);
+        background-position: center;
+        width: 24px;
+        height: 24px;
+
+        &:hover{
+            background-image: url(../assets/tablet/header/lupa-hover.png);
+            background-position: center;
+            width: 24px;
+            height: 24px;
+        }
+
+        &:active{
+            background-image: url(../assets/tablet/header/lupa-hover.png);
+            background-position: center;
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .menu{
+        padding: 16px 50px;
+    }
+    
+    .menu__logo{
+        width: 73px;
+        height: 40px;
+    }
+
+    section{
+        padding: 0 50px 0 50px;
+    }
+
+    .banner__fundo{
+        width: 100%;
+        height: 662px; 
+        object-fit: cover;
+        margin-bottom: 50px;
+    }
+
+    .banner__interior h1{
+        width: 400px;
+        height: 258px;
+        margin-left: 40px;
+        margin-bottom: 24px;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 86.4px;
+    }
+
+    .banner__interior p{
+        width: 367px;
+        height: 155px;
+        margin-left: 40px;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 48px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.24px; 
+    }
+
+    .banner button{
+        width: 205px;
+        height: 58px;
+        padding: 18px 32px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        margin-left: 40px;        
+
+        &:hover{
+            @include botao-roxo-hover;
+            padding: 14px 28px;
+        }
+
+        &:focus{
+            @include botao-roxo-focus;
+            padding: 14px 28px;
+        }
+
+        &:active{
+            @include botao-roxo-active;
+            border: none;
+        }
+    }
+
+    .sobre-nos h2{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        padding-bottom: 23px;
+    }
+    
+    .sobre-nos p{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32.4px;
+        letter-spacing: 0.18px; 
+        padding-bottom: 40px;
+        padding-right: 50px;
+    }
+
+    .sobre-nos__engenheiros img{
+        width: 100%;
+        height: 630px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-radius: 32px 32px 0 0;
+    }
+
+    .sobre-nos__engenheiros--mais{
+        height: 176px;
+        margin-top: -176px;
+        border-radius: 24px;
+        margin-bottom: 24px;
+    }
+
+    .sobre-nos__engenheiros--mais{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sobre-nos__engenheiros--mais h3{
+        padding: 40px;
+        font-size: 18px;
+        line-height: 180%;
+        letter-spacing: 0.18px; 
+    }
+
+    .sobre-nos__engenheiros--mais button{
+        width: 108px;
+        height: 58px;
+        margin-right: 40px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        padding: 18px 32px;
+        margin-top: 59px;
+        margin-bottom: 59px;
+        
+        &:hover{
+            @include botao-branco-hover;
+        }
+
+        &:focus{
+            @include botao-branco-focus;
+            padding: 14px 28px;
+        }
+
+        &:active{
+            @include botao-branco-active;
+            padding: 18px 32px;
+        }
+        
+    }
+
+    .sobre-nos__consultoria{
+        border-radius: 32px;
+        width: 100%;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titulo{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 180%;
+        letter-spacing: 0.18px; 
+        margin-bottom: 8px;
+    }
+
+    .sobre-nos__consultoria p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        letter-spacing: 0.16px; 
+        margin-top: 0;
+    }
+
+    .sobre-nos__consultoria h3, p{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .sobre-nos__consultoria img{
+        padding-left: 40px;
+        margin-bottom: 40px;
+        padding-top: 40px;
+        padding-right: 32px;
+        width: 108px;
+        height: 120px;
+     }
+
+     .serv{
+        border-radius: 32px;
+        width: 100%;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .serv p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        letter-spacing: 0.16px; 
+        margin-top: 0;
+    }
+
+    .serv h3, p{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .serv img{
+        padding-left: 40px;
+        margin-bottom: 40px;
+        padding-top: 40px;
+        padding-right: 32px;
+        width: 108px;
+        height: 120px;
+     }
+
+     .como{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    .como h2{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        margin-top: 0px;
+        padding-top: 50px;
+    }
+
+    .como img{
+        width: 100%;
+        height: 284px;
+        border-radius: 32px;
+    }
+
+    .como h3{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.24px
+    }
+
+    .como p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        letter-spacing: 0.16px;
+        padding-right: 50px;
+    }
+
+    .como__botoes{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        gap: 40px;
+    }
+
+    .como__botoes--roxo{
+        width: 108px;
+        height: 58px;
+        padding: 18px 32px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+
+        &:hover{
+            @include botao-roxo-hover;
+            padding: 14px 28px;
+        }
+
+        &:focus{
+            @include botao-roxo-focus;
+            padding: 14px 28px;
+        }
+
+        &:active{
+            @include botao-roxo-active;;
+            border: none;
+        }
+    }
+
+    .como__botoes--branco{
+        width: 187px;
+        height: 58px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+
+        &:hover{
+            @include botao-branco-hover;
+        }
+
+        &:focus{
+            @include botao-branco-focus;
+            padding: 14px 28px;
+        }
+
+        &:active{
+            @include botao-branco-active;
+        }
+    }
+
+    .vantagens{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .vantagens h2{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        margin-top: 50px;
+    }
+
+    .vantagens__card{
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-bottom: 24px;
+      border-radius: 32px;
+      margin: 0px;
+    }
+
+    .vantagens__cards{
+        display: grid;
+        grid-template-columns: 1fr 1.25fr;
+        grid-template-areas: 
+        "conexao prancheta"
+        "conexao calendario"
+        "conexao calendario"
+        "mapa horas"
+        "aviao planeta"
+        "aviao planeta"
+        "aviao none";
+        padding-bottom: 50px;
+        gap: 16px;
+    }
+
+    .conexao{
+        grid-area: conexao;
+    }
+    .prancheta{
+        grid-area: prancheta;
+    }
+    .horas{
+        grid-area: horas;
+    }
+    .mapa{
+        grid-area: mapa;               
+    }
+    .aviao{
+        grid-area: aviao;
+    }
+    .calendario{
+        grid-area: calendario;
+    }
+    .planeta{
+        grid-area: planeta;
+    }
+
+    .vantagens__card p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        letter-spacing: 0.16px;
+        margin-left: 16px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .vantagens__card img{
+        width: 55px;
+        height: 55px; 
+    }
+
+    #aviao{
+        width: 55px;
+        height: 26.219px; 
+    }
+
+    .servicos{
+        padding-bottom: 50px;
+    }
+
+    .servicos h2{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+    }
+
+    .servicos img{
+        width: 100%;
+        height: 165px;
+        border-radius: 16px 16px 0 0;
+        object-fit: cover;
+    }
+
+    .servicos__cards{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 16px;
+    }
+
+    .servicos__cards h4{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.24px; 
+        align-self: flex-start;
+        margin-top: 14.5px;
+        margin-bottom: 7.5px;
+    }
+
+
+    .servicos__cards p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        letter-spacing: 0.16px; 
+        padding-left: 16px;
+
+    }
+
+    .servicos button{
+       margin-top: 14px;
+       margin-bottom: 7px;
+
+        &:hover{
+            color: var(--backround);
+            background-color: var(--button);
+        }
+
+        &:active{
+            color: var(--backround);
+            background-color: var(--purple-dark);
+            border: 1px solid transparent            
+        }
+    }
+
+    footer h2{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        padding-left: 50px;
+    }
+
+    .hide-mobile{
+        display: initial;
+    }
+
+    footer form{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 148px;
+        padding-top: 23px;
+    }
+
+    footer form input{
+        height: 60px;
+        margin-bottom: 24px;
+        border: none;
+        border-radius: 16px;
+        padding-left: 24px;
+        background-color: var(--gray);
+    }
+    ::placeholder{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%; 
+        letter-spacing: 0.16px; 
+    }
+    
+    footer form select{
+        height: 60px;
+        margin-bottom: 24px;
+        border: none;
+        border-radius: 16px;
+        padding-left: 24px;
+        background-color: var(--gray);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        letter-spacing: 0.16px;
+        border-right: 27px solid transparent;
+    }
+    
+    footer form input[type=date]{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        letter-spacing: 0.16px;   
+        padding-right: 24px;
+    }
+
+    
+
+    .check{
+        margin-top: 15px;
+    }
+    
+    input[type=checkbox]{
+        width: 24px;
+        height: 24px;
+    }
+
+    .check label{
+        color: var(--backround);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.14px; 
+    }
+    
+    .button--check{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 24px;
+    }
+    
+    form button{
+        width: 25%;
+        height: 58px;
+        padding: 13px 32px;
+        background-color: var(--button);
+        border: none;
+        border-radius: 16px;
+        color: var(--backround);
+        font-family: var(--alt-font);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        cursor: pointer;
+        margin-bottom: 0;
+
+        &:hover{
+            @include botao-roxo-hover;
+            padding: 14px 28px;
+        }
+
+        &:focus{
+            @include botao-roxo-focus;
+            padding: 14px 28px;
+        }
+
+        &:active{
+            @include botao-roxo-active;
+            border: none;
+        }
+    }
+
+    .footer__desc{
+        padding-left: 50px;
+        padding-right: 148px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.16px;
+    }
+
+    .footer__logo svg{
+        margin-left: 0;
+        padding-left: 50px;
+        width: 106px;
+        height: 58px;
+    }
+
+    
+    .lista-social{
+        padding-left: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    
+    footer ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr fit-content;
+        grid-template-rows: 1fr 1fr 1fr fit-content;
+        column-gap: 64px;
+        row-gap: 16px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;        
+    }
+
+    .ul-grid-1{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .ul-grid-2{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .ul-grid-3{
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .ul-grid-4{
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .ul-grid-5{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    li{
+        list-style: none;
+        margin-left: 0;
+    }
+    
+    a{
+        text-decoration: none;
+        color: var(--backround);
+    }
+    
+    footer span{
+        color: var(--button);
+        text-decoration: underline;
+    }
+    
+    .social button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        margin-right: 24px;
+        margin-bottom: 40px;
+    }
+    .social{
+        margin-top: 40px;
+        margin-right: 64px;
+        margin-left: 0;
+    }
+
+}

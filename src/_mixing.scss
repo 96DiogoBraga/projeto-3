@@ -1,0 +1,28 @@
+@mixin botao-roxo-hover{
+    border: 4px solid var(--purple-dark);
+}
+
+@mixin botao-roxo-focus{
+    border: 4px solid #E1D4FF;
+}
+
+@mixin botao-roxo-active{
+    background-color: var(--purple-dark);
+}
+
+@mixin botao-branco-hover{
+    color: var(--purple-dark);
+    border: 1px solid var(--purple-dark);
+}
+
+@mixin botao-branco-focus{
+    background-color: var(--button);
+    color: var(--backround);
+    border: 4px solid #E1D4FF;
+
+}
+
+@mixin botao-branco-active{
+    background-color: var(--purple-dark);
+    border: none;    
+}
