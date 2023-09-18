@@ -64,6 +64,54 @@
         height: 40px;
     }
 
+    .menu-items{
+        background-color: var(--backround);
+        width: 420px;
+        margin-top: 460px;
+        padding-top: 22px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 0 0 16px 16px;
+        position: fixed;
+        z-index: 1;
+        
+        & button{
+            width: 23px;
+            height: 23px;
+            margin-bottom: 33px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+    }
+    
+    .menu-options{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 40px;
+    
+        & button{
+            width: fit-content;
+            font-family: var(--alt-font);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px;
+            color: black;
+            margin-bottom: 0;
+            border: 1px solid var(--border);
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 18px;
+            padding-bottom: 36px;
+            text-align: center;
+            border-radius: 8px;
+        }
+    }
+
     section{
         padding: 0 50px 0 50px;
     }
