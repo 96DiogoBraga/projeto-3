@@ -168,7 +168,7 @@ header{
         &:hover{
             color: var(--backround);
             background-color: var(--light-gray);
-            border: 1px transparent;
+            border: 1px solid transparent;
         }
 
         &:active{
