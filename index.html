@@ -50,12 +50,13 @@
 
     <main>
         <section class="banner">
-            <div class="banner__interior">
-                <h1 class="banner__texto"><strong>Projetos de alta complexidade</strong></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button class="botao__banner">Fazer o cálculo</button>
+            <div class="banner__1">
+                <div class="banner__interior">
+                    <h1 class="banner__texto"><strong>Projetos de alta complexidade</strong></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button class="botao__banner">Fazer o cálculo</button>
+                </div>
             </div>
-                <img class="banner__fundo" src="./assets/mobile/banner/banner-mobile.png" alt="sacada apartamento">
         </section>
 
         <section class="sobre-nos">
@@ -77,7 +78,12 @@
                 </div>
             </div>
 
-            <div class="sobre-nos__consultoria">
+            <div class="tab-container">
+                <button onclick="showConsultoria()">Consultoria</button>
+                <button onclick="showServicos()">Serviços</button>
+            </div>
+
+            <div class="sobre-nos__consultoria" id="tab-consultoria">
                 <div class="sobre-nos__1">
                     <img src="./assets/mobile/sobre-nos/caixa-mobile.svg" alt="caixa">
                 </div>
@@ -92,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="serv">
+            <div class="serv" id="tab-servicos">
                 <div class="sobre-nos__1">                    
                     <img src="./assets/mobile/sobre-nos/engrenagens-mobile.svg" alt="engrenagens">
                 </div>
@@ -333,6 +339,8 @@
         </div>
     </footer>
     <script src="JavaScript\index.js"></script>
+    <script src="JavaScript\tabs.js"></script>
     <script>changeMenu()</script>
+    <script>showConsultoria()</script>
 </body>
 </html>
