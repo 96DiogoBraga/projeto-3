@@ -130,7 +130,7 @@
             </div>
             
             <div class="como__botoes">
-                <button class="como__botoes--roxo">Mais</button>
+                <button onclick="openModal()" class="como__botoes--roxo">Mais</button>
                 <button class="como__botoes--branco">Contrate-nos</button>
             </div>
         </section>
@@ -338,9 +338,21 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <div class="modal-content">
+                <h2>Solicite um orçamento sem compromisso</h2>
+            </div>
+            <button class="close" onclick="closeModal()"><img src="./assets/mobile/header/botaoXmodal.svg"></button>
+        </div>
+    </div>
+
     <script src="JavaScript\index.js"></script>
     <script src="JavaScript\tabs.js"></script>
+    <script src="JavaScript/popup.js"></script>
     <script>changeMenu()</script>
     <script>showConsultoria()</script>
+    <script>closeModal()</script>
 </body>
 </html>
