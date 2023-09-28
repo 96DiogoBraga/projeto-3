@@ -370,7 +370,7 @@ section{
     align-self: center;
     margin-top: 24px;
     margin-bottom: 41px;
-    padding: 13px 32px;
+    padding: 13px 30px;
     background-color: transparent;
     border: 1px solid var(--button);
     border-radius: 8px;
@@ -388,12 +388,12 @@ section{
 
     &:focus{
        @include botao-branco-focus; 
-        padding: 9px 28px;
+        padding: 9px 26px;
     }
 
     &:active{
         @include botao-branco-active;
-        padding: 13px 32px;
+        padding: 13px 30px;
     }
 }
 
@@ -403,6 +403,71 @@ section{
     flex-direction: row;
     justify-content: center;
     gap: 15px;
+}
+
+.botao-consultoria{
+    width: 137px;
+    height: 44px;
+    padding: 13px 30px;
+    background-color: var(--button);
+    border: none;
+    border-radius: 8px;
+    color: var(--backround);
+    font-family: var(--alt-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+    text-align: center;
+
+    &:hover{
+        @include botao-roxo-hover;
+        padding: 9px 26px;
+    }
+
+    &:focus{
+        @include botao-roxo-focus;
+        padding: 9px 26px;
+    }
+
+    &:active{
+        @include botao-roxo-active;
+        border: none;
+        padding: 13px 30px;
+    }  
+}
+
+.botao-servicos{
+    width: 137px;
+    height: 44px;
+    padding: 13px;
+    background-color: transparent;
+    border: 1px solid var(--button);
+    border-radius: 8px;
+    font-family: var(--alt-font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; 
+    color: var(--button); 
+    cursor: pointer;
+    text-align: center;
+    margin-right: 0;
+
+    &:hover{
+        @include botao-branco-hover;
+    }
+
+    &:focus{
+        @include botao-branco-focus;
+        padding: 9px
+    }
+
+    &:active{
+        @include botao-branco-active;
+        padding: 13px
+    }
 }
 
 .sobre-nos__consultoria{
