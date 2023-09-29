@@ -934,9 +934,7 @@ input[type=checkbox]{
         animation-duration: 0.15s;
     }
 
-    &:valid{
-        box-shadow: 0px 0px 10px 0px lightgreen;
-    }  
+     
 }
 
 @keyframes pulse {

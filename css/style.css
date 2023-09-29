@@ -878,9 +878,6 @@ input[type=checkbox]:checked {
   animation-name: pulse;
   animation-duration: 0.15s;
 }
-.input:valid {
-  box-shadow: 0px 0px 10px 0px lightgreen;
-}
 
 @keyframes pulse {
   0% {
